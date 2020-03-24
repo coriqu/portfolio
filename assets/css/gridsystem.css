@@ -107,6 +107,9 @@ p {
 [class*='col-']>.card {
 	height: 100%;
 }
+.title-center {
+	text-align: center;
+}
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -277,7 +280,7 @@ p {
 }
 .quote:nth-child(1) {
 	position: absolute;
-	top: 10px;
+	top: 12px;
 	left: 5%;
 	/*position: relative;*/
 	/*top: 1rem;*/
@@ -310,6 +313,10 @@ p {
     border-radius: 5px;
     transition: all 0.3s;
 }
+.img-box-h {
+	width: 0;
+	height: 100%;
+}
 .img-box:hover {
     /*opacity: 0.9;*/
 }
@@ -320,6 +327,18 @@ p {
 }
 .img-box>img {
 	position: absolute;
+}
+.img-box-synthesis.img-box {
+	overflow: hidden;
+	width: 35%;
+}
+.img-box-synthesis.img-box p {
+	font-size: .3rem;
+	line-height: 0.7rem;
+}
+
+.img-box-synthesis.img-box::before {
+    padding-top: 100%;
 }
 .img-box-logotype.img-box::before {
     padding-top: 30%;
