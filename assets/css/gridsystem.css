@@ -62,7 +62,7 @@ ol,ol>li{
     font-style: normal;
     letter-spacing: 2px;
     line-height: 2.0em;
-    font-size: 12px;
+    font-size: 13px;
     list-style: none;
     color: var(--color-content);
     list-style-type: decimal;
@@ -247,17 +247,23 @@ p {
 	.col-xl-11 {grid-column: span 11;	}
 	.col-xl-12 {grid-column: span 12;	}
 }
-.interview-num {
-
+.interview-num  {
+	font-size: 3rem;
+	margin: 0 auto;
+	font-weight: bold;
 }
-.interview-num h5,
-.interview-num p {
+.interview-1 h5,
+.interview-2 h5,
+.interview-2 p {
 	font-size: 1.2rem;
 	margin: 0 auto;
 	font-weight: bold;
 	/*width: 100%;*/
 }
-.interview-num p {
+.interview-2 h5 {
+	text-align: center;
+}
+.interview-2 p {
 	font-size: 1.5rem;
 }
 .user-quote {
@@ -330,7 +336,7 @@ p {
 }
 .img-box-synthesis.img-box {
 	overflow: hidden;
-	width: 35%;
+	width: 50%;
 }
 .img-box-synthesis.img-box p {
 	font-size: .3rem;

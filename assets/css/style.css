@@ -59,7 +59,7 @@
     /*padding: 20px;*/
     transition: all 0.3s;
     cursor: pointer;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     border-radius: 10px;
 }
 .pf-box:hover {
@@ -109,7 +109,7 @@
 }
 
 .section-title {
-    margin: 3rem 0 1rem 0;
+    margin: 5rem 0 1rem 0;
 }
 .zoom-img {
     /*border: 1px solid red;*/
