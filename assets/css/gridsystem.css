@@ -65,7 +65,7 @@ ol,ol>li{
     /*font-weight: 400;*/
     font-style: normal;
     letter-spacing: 2px;
-    line-height: 2.0em;
+    line-height: 3.0em;
     font-size: 13px;
     list-style: none;
     color: var(--color-content);

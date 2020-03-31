@@ -22,6 +22,11 @@
 	border-bottom: 2px dashed var(--color-green-medium);
 	margin: 0;
 }
+.explorest .text-em {
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: var(--color-green-medium);
+}
 .persona img {
 	/*border: 1px solid var(--color-purple-dark);*/
 	box-shadow: 1px 1px 10px #ddd; 
