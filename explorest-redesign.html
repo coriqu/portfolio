@@ -7,6 +7,7 @@
 	<title>Cori Qu</title>
 	<link rel="stylesheet" href="assets/css/gridsystem.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/color.css">
 </head>
 <body>
 	<div class="container">
@@ -16,7 +17,7 @@
 	            	<span class="menu-logo">Cori Qu</span>
 	            </a>
                 <ul class="menu-link">
-            		<li><a href="resume.html">RESUME</a></li>
+            		<li><a href="assets/resume/coriqu_resume.pdf" target="_blank">RESUME</a></li>
                 	<li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
@@ -30,7 +31,7 @@
 				<div class="line"></div>
 			</div>
 	    </header>
-	    <main class="portfolio-menu flex">
+	    <main class="explorest flex">
 	    	<div class="portfolio-intro flex-width-80">
 	    		<img src="" alt="">
 	    	</div>
@@ -41,48 +42,18 @@
 	    		<h3 class="section-title">Overview</h3>
 	    		<p>Explorest is an app that discovering the world's greatest photo locations, and offering lots of useful information that an explorer needs to know.</p>
 
+	    		<h3 class="section-title">Process</h3>
+				<div class="zoom-img flex">
+					<div class="">
+						<img src="assets/img/explorest/process.png" alt="">
+					</div>
+	    			
+	    		</div>
 
-				<h3 class="section-title">Redesign Goals</h3>
-				<p>Making this app more intuitive to use and letting users easier to pursue their goals. Making improvements in the user interface to providing a cleaner presentation of the content.</p>
-				<div class="grid">
-					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
-						<h4>Functionality</h4>
-						<ul>
-							<li> - Improve the connection between users.</li>
-							<li> - Adding the function of sending direct messages.</li>
-							<li> - Ratings and reviews of locations.</li>
-							<li></li>
-						</ul>
-					</div>			
-					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
-						<h4>Usability</h4>
-						<ul>
-							<li> - When adding more locations from all over the world, the top filter bar needs to be changed.</li>
-							<li> - Too many contents on a scrolling page</li>
-							<li> - Duplicate content</li>
-							<li> - The biggest button on the home page is useless</li>
-							 <!-- cause this button is only used for taking photos -->
-						</ul>
-					</div>			
-					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
-						<h4>Accessibility</h4>
-						<ul>
-							<li> - Misunderstand what the 'request+' mains.</li>
-							<li> - Open in Amazon without a hint</li>
-							<li> - All the locations on the map are marked in the same color (except the currently selected location).</li>
-							<li></li>
-						</ul>
-					</div>			
-					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
-						<h4>Visual Design</h4>
-						<ul>
-							<li> - Icons confused people.</li>
-							<li> - Title of the location is too long (is it designed for a easy search? People who looks for photo location don't care about what's in the photo, they care about where they can take this photo)</li>
-							<!-- <li> - Ratings and reviews of locations.</li> -->
-							<li></li>
-						</ul>
-					</div>				
-				</div>
+
+
+
+				
 
 
 
@@ -156,6 +127,38 @@
 
 
 				<h3 class="section-title">Finding & Learning</h3>
+				<p>After conducting a series of user interviews, I synthesized the user insights and each color represents each user.</p>
+				<h4 class="col-12 title-center">Synthesis</h4>
+				<div class="zoom-img grid " style="grid-template-rows:10;">
+	    			<img class="col-9" style="grid-row: span 10;" src="assets/img/explorest/synthesis.png" alt="">
+	    			<div class="col-3 flex-center" style="grid-row: span 1;">
+	    				<h6>EXAMPLES</h6>
+	    			</div>
+	    			<div class="col-3 flex-center" style="grid-row: span 3;">
+	    				<div class="img-box img-box-synthesis">
+	    					<img src="assets/img/explorest/insight1.png" alt="">
+	    				</div>
+	    			</div>
+	    			<div class="col-3 flex-center" style="grid-row: span 3;">
+	    				<div class="img-box img-box-synthesis">
+	    					<img src="assets/img/explorest/insight2.png" alt="">
+	    				</div>
+	    			</div>
+	    			<div class="col-3 flex-center" style="grid-row: span 3;">
+	    				<div class="img-box img-box-synthesis">
+	    					<img src="assets/img/explorest/insight3.png" alt="">
+	    				</div>
+	    			</div>
+	    			<div class="col-12 divid-line"></div>
+	    		</div>
+	    		<h4 class="col-12 title-center"> Clustering</h4>
+				<div class="zoom-img grid " style="grid-template-rows:3;">
+	    			<img class="col-8" style=" grid-row: span 3;" src="assets/img/explorest/clustering.png" alt="">
+	    			<div class="col-4" style=" grid-row: span 1; background-color: #ddd;"></div>
+	    			<div class="col-4" style=" grid-row: span 1; background-color: #ddd;"></div>
+	    			<div class="col-4" style=" grid-row: span 1; background-color: #ddd;"></div>
+	    		</div>
+
 				
 
 
@@ -195,40 +198,82 @@
 
 
 
-	    		<h3 class="section-title">Solution & Concept</h3>
+	    		<h3 class="section-title">Redesign Goals</h3>
+				<p>Making this app more intuitive to use and letting users easier to pursue their goals. Making improvements in the user interface to providing a cleaner presentation of the content.</p>
+				<div class="redesign-goals grid grid-gap-xs">
+					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
+						<h4>Functionality</h4>
+						<ul>
+							<li><span class="list-circle"></span>Improve the connection between users.</li>
+							<li><span class="list-circle"></span>Adding the function of sending direct messages.</li>
+							<li><span class="list-circle"></span>Ratings and reviews of locations.</li>
+							<li></li>
+						</ul>
+					</div>			
+					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
+						<h4>Usability</h4>
+						<ul>
+							<li><span class="list-circle"></span>When adding more locations from all over the world, the top filter bar needs to be changed.</li>
+							<li><span class="list-circle"></span>Too many contents on a scrolling page</li>
+							<li><span class="list-circle"></span>Duplicate content</li>
+							<li><span class="list-circle"></span>The biggest button on the home page is useless</li>
+							 <!-- cause this button is only used for taking photos -->
+						</ul>
+					</div>			
+					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
+						<h4>Accessibility</h4>
+						<ul>
+							<li><span class="list-circle"></span>Misunderstand what the 'request+' mains.</li>
+							<li><span class="list-circle"></span>Open in Amazon without a hint</li>
+							<li><span class="list-circle"></span>All the locations on the map are marked in the same color (except the currently selected location).</li>
+							<li></li>
+						</ul>
+					</div>			
+					<div class="col-xl-6 col-md-6 col-xs-12 col-12">
+						<h4>Visual Design</h4>
+						<ul>
+							<li><span class="list-circle"></span>Icons confused people.</li>
+							<li><span class="list-circle"></span>Title of the location is too long (is it designed for a easy search? People who looks for photo location don't care about what's in the photo, they care about where they can take this photo)</li>
+							<!-- <li><span class="list-circle"></span>Ratings and reviews of locations.</li> -->
+							<li></li>
+						</ul>
+					</div>				
+				</div>
 
 
 
 	    		<h3 class="section-title">Low Fidelity Prototype</h3>
 	    		<div class="zoom-img grid grid-gap-md">
-	    			<img class="col-xl-3 col-md-3 col-xs-3 col-12" src="assets/img/explorest/low/3.png" alt="">
-	    			<img class="col-xl-3 col-md-3 col-xs-3 col-12" src="assets/img/explorest/low/2.png" alt="">
-	    			<img class="col-xl-3 col-md-3 col-xs-3 col-12" src="assets/img/explorest/low/4.png" alt="">
-	    			<img class="col-xl-3 col-md-3 col-xs-3 col-12" src="assets/img/explorest/low/5.png" alt="">
+	    			<img class="col-xl-3 col-md-3 col-xs-3 col-3" src="assets/img/explorest/low/3.png" alt="">
+	    			<img class="col-xl-3 col-md-3 col-xs-3 col-3" src="assets/img/explorest/low/2.png" alt="">
+	    			<img class="col-xl-3 col-md-3 col-xs-3 col-3" src="assets/img/explorest/low/4.png" alt="">
+	    			<img class="col-xl-3 col-md-3 col-xs-3 col-3" src="assets/img/explorest/low/5.png" alt="">
 	    		</div>
 
 
 
 	    		<h3 class="section-title">Testing</h3>
-	    		<p>I wanted to try two different layouts for ‘Discover’ and decided to A/B test these layouts on my users. I wanted to understand how efficient it was for users to find something they were looking for.</p>
+	    		<p>I wanted to try two different layouts for 3 pages and decided to A/B test these layouts on my users. I wanted to understand how efficient it was for users to find something they were looking for.</p>
 	    		<div class="zoom-img grid grid-gap-md">
-	    			<div class="col-xl-2 col-md-2 col-xs-4 col-6 flex flex-center test-num">
+	    			<div class="divid-line col-12"></div>
+					<h5 class="title-center col-12">Showing locations on the map</h5>
+	    			<div class="col-xl-2 col-md-2 col-xs-2 col-12 flex flex-center test-num">
 	    				<img src="assets/img/explorest/num1.png" alt="">
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/1.png" alt="">
 	    				<h3>A</h3>
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/2.png" alt="">
 	    				<h3>B</h3>
 	    			</div>
 	    			<div class="col-xl-4 col-md-4 col-xs-4 col-12 flex flex-center">
 	    				<h4>Results: A</h4>
-	    				<h5>Showing locations on the map</h5>
+	    				<h5>Feedback</h5>
 	    				<ol>
 	    					<li>A bottom navigation bar that includes all important functions.</li>
-	    					<li>Feels intuitive to find that on the Home Bar.</li>
+	    					<li>Feels intuitive to find the map function on the Home page navigation bar.</li>
 	    				</ol>
 	    			</div>
 	    		</div>
@@ -237,46 +282,51 @@
 
 
 	    		<div class="zoom-img grid grid-gap-md">
-	    			<div class="col-xl-2 col-md-2 col-xs-4 col-6 flex flex-center test-num">
+	    			<div class="divid-line col-12"></div>
+					<h5 class="title-center col-12">Filtering Locations on the map</h5>
+	    			<div class="col-xl-2 col-md-2 col-xs-2 col-12 flex flex-center test-num">
 	    				<img src="assets/img/explorest/num2.png" alt="">
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/1.png" alt="">
 	    				<h3>A</h3>
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/2.png" alt="">
 	    				<h3>B</h3>
 	    			</div>
 	    			<div class="col-xl-4 col-md-4 col-xs-4 col-12 flex flex-center">
 	    				<h4>Results: A</h4>
-	    				<h5>Showing locations on the map</h5>
+	    				<h5>Feedback</h5>
 	    				<ol>
-	    					<li>A bottom navigation bar that includes all important functions.</li>
-	    					<li>Feels intuitive to find that on the Home Bar.</li>
+	    					<li>The bigger size filter makes more sense.</li>
+	    					<li>Users would like to get access to the whole map.</li>
+	    					<li>Make the filter more clear and specific.</li>
 	    				</ol>
 	    			</div>
 	    		</div>
 
 
 	    		<div class="zoom-img grid grid-gap-md">
-	    			<div class="col-xl-2 col-md-2 col-xs-4 col-6 flex flex-center test-num">
+	    			<div class="divid-line col-12"></div>
+					<h5 class="title-center col-12">Photo location details on the map</h5>
+	    			<div class="col-xl-2 col-md-2 col-xs-2 col-12 flex flex-center test-num">
 	    				<img src="assets/img/explorest/num3.png" alt="">
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/1.png" alt="">
 	    				<h3>A</h3>
 	    			</div>
-	    			<div class="col-xl-3 col-md-3 col-xs-4 col-6 flex flex-center">
+	    			<div class="col-xl-3 col-md-3 col-xs-3 col-6 flex flex-center">
 	    				<img src="assets/img/explorest/high/2.png" alt="">
 	    				<h3>B</h3>
 	    			</div>
 	    			<div class="col-xl-4 col-md-4 col-xs-4 col-12 flex flex-center">
 	    				<h4>Results: A</h4>
-	    				<h5>Showing locations on the map</h5>
+	    				<h5>Feedback</h5>
 	    				<ol>
-	    					<li>A bottom navigation bar that includes all important functions.</li>
-	    					<li>Feels intuitive to find that on the Home Bar.</li>
+	    					<li>Bigger images are better.</li>
+	    					<li>Bigger images are waste spaces, users want to see the full map.</li>
 	    				</ol>
 	    			</div>
 	    		</div>
@@ -301,6 +351,9 @@
 	    	</div>
 	    	
 	    </main>
+	    <div>
+	    	
+	    </div>		
 	</div>
 </body>
 </html>
