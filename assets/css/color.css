@@ -20,7 +20,7 @@
 }
 .explorest .divid-line {
 	border-bottom: 2px dashed var(--color-green-medium);
-	margin: 0;
+	margin: 20px;
 }
 .explorest .text-em {
 	font-weight: bolder;
