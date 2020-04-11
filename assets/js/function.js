@@ -150,6 +150,7 @@ window.onload = function() {
 
     navBar.init();
     PhotoAlbum.init();
+    
     // $.delegate(document.getElementById("list"), "li", "click", clickListener);
     // checkCookie();
 }
