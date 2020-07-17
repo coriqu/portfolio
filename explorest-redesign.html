@@ -391,15 +391,20 @@
 	</div>
 	<progress id="content_progress" value="0"></progress>
 	<script>
+		progressBar = document.querySelector('#content_progress');
+		progressBar.style.width = window.innerHeight+'px';
+		console.log(window.screen.availHeight,window.outerHeight,window.innerHeight);
 		document.addEventListener('DOMContentLoaded', function () {
 	        var winHeight = window.innerHeight,
 	            docHeight = document.documentElement.scrollHeight,
 	            progressBar = document.querySelector('#content_progress');
 		        progressBar.max = docHeight - winHeight;
 		        progressBar.value = window.scrollY;
+		        // progressBar.style.width = window.screen.height;
 
 	        document.addEventListener('scroll', function () {
 	            progressBar.max = document.documentElement.scrollHeight - window.innerHeight;
+
 	            progressBar.value = window.scrollY;
 	         });
 	    });
