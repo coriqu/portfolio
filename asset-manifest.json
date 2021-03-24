@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d644d1c9.chunk.css",
-    "main.js": "/portfolio/static/js/main.cda5271f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cda5271f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b5b68618.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b5b68618.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8a652863.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8a652863.js.map",
     "static/css/2.82cc455f.chunk.css": "/portfolio/static/css/2.82cc455f.chunk.css",
@@ -76,7 +76,7 @@
     "static/media/clustering.svg": "/portfolio/static/media/clustering.ec1849b6.svg",
     "static/media/collateral.png": "/portfolio/static/media/collateral.aa24e62b.png",
     "static/media/concept.6e08b34c.gif": "/portfolio/static/media/concept.6e08b34c.gif",
-    "static/media/coriqu_resume.f2620e86.pdf": "/portfolio/static/media/coriqu_resume.f2620e86.pdf",
+    "static/media/coriqu-resume.4211e2aa.pdf": "/portfolio/static/media/coriqu-resume.4211e2aa.pdf",
     "static/media/cover.9b5d6143.png": "/portfolio/static/media/cover.9b5d6143.png",
     "static/media/display.06bdf8f6.mp4": "/portfolio/static/media/display.06bdf8f6.mp4",
     "static/media/drinkingbuddy.f46c3885.png": "/portfolio/static/media/drinkingbuddy.f46c3885.png",
@@ -201,6 +201,6 @@
     "static/css/2.82cc455f.chunk.css",
     "static/js/2.cb173a17.chunk.js",
     "static/css/main.d644d1c9.chunk.css",
-    "static/js/main.cda5271f.chunk.js"
+    "static/js/main.b5b68618.chunk.js"
   ]
 }
